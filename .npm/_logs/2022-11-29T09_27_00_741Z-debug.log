@@ -1,0 +1,179 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/abbrev@ts3.6',
+1 verbose cli   '@types/are-we-there-yet@ts3.6',
+1 verbose cli   '@types/balanced-match@ts3.6',
+1 verbose cli   '@types/brace-expansion@ts3.6',
+1 verbose cli   '@types/cacache@ts3.6',
+1 verbose cli   '@types/chownr@ts3.6',
+1 verbose cli   '@types/color-support@ts3.6',
+1 verbose cli   '@types/concat-map@ts3.6',
+1 verbose cli   '@types/delegates@ts3.6',
+1 verbose cli   '@types/detect-libc@ts3.6',
+1 verbose cli   '@types/fs-minipass@ts3.6',
+1 verbose cli   '@types/glob@ts3.6',
+1 verbose cli   '@types/graceful-fs@ts3.6',
+1 verbose cli   '@types/http-cache-semantics@ts3.6',
+1 verbose cli   '@types/humanize-ms@ts3.6',
+1 verbose cli   '@types/imurmurhash@ts3.6',
+1 verbose cli   '@types/ip@ts3.6',
+1 verbose cli   '@types/is-lambda@ts3.6',
+1 verbose cli   '@types/isexe@ts3.6',
+1 verbose cli   '@types/make-fetch-happen@ts3.6',
+1 verbose cli   '@types/minimatch@ts3.6',
+1 verbose cli   '@types/minizlib@ts3.6',
+1 verbose cli   '@types/mkdirp@ts3.6',
+1 verbose cli   '@types/node-fetch@ts3.6',
+1 verbose cli   '@types/nopt@ts3.6',
+1 verbose cli   '@types/npmlog@ts3.6',
+1 verbose cli   '@types/object-assign@ts3.6',
+1 verbose cli   '@types/once@ts3.6',
+1 verbose cli   '@types/path-is-absolute@ts3.6',
+1 verbose cli   '@types/promise-inflight@ts3.6',
+1 verbose cli   '@types/promise-retry@ts3.6',
+1 verbose cli   '@types/readable-stream@ts3.6',
+1 verbose cli   '@types/retry@ts3.6',
+1 verbose cli   '@types/rimraf@ts3.6',
+1 verbose cli   '@types/semver@ts3.6',
+1 verbose cli   '@types/set-blocking@ts3.6',
+1 verbose cli   '@types/signal-exit@ts3.6',
+1 verbose cli   '@types/ssri@ts3.6',
+1 verbose cli   '@types/tar@ts3.6',
+1 verbose cli   '@types/tr46@ts3.6',
+1 verbose cli   '@types/util-deprecate@ts3.6',
+1 verbose cli   '@types/webidl-conversions@ts3.6',
+1 verbose cli   '@types/whatwg-url@ts3.6',
+1 verbose cli   '@types/which@ts3.6',
+1 verbose cli   '@types/yallist@ts3.6',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--user-agent=typesInstaller/3.6.3'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session b1d29fe5b456115d
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/@types%2fdelegates 10329ms
+8 silly fetchPackageMetaData error for @types/delegates@ts3.6 No matching version found for @types/delegates@ts3.6.
+9 http fetch GET 304 https://registry.npmjs.org/@types%2fcolor-support 10498ms (from cache)
+10 http fetch GET 304 https://registry.npmjs.org/@types%2fbrace-expansion 10507ms (from cache)
+11 http fetch GET 304 https://registry.npmjs.org/@types%2fconcat-map 10500ms (from cache)
+12 http fetch GET 304 https://registry.npmjs.org/@types%2fchownr 10503ms (from cache)
+13 http fetch GET 304 https://registry.npmjs.org/@types%2fbalanced-match 10512ms (from cache)
+14 http fetch GET 304 https://registry.npmjs.org/@types%2fare-we-there-yet 10522ms (from cache)
+15 http fetch GET 304 https://registry.npmjs.org/@types%2fdetect-libc 10437ms (from cache)
+16 http fetch GET 304 https://registry.npmjs.org/@types%2fabbrev 10540ms (from cache)
+17 silly pacote tag manifest for @types/color-support@ts3.6 fetched in 10534ms
+18 silly pacote tag manifest for @types/chownr@ts3.6 fetched in 10537ms
+19 silly pacote tag manifest for @types/brace-expansion@ts3.6 fetched in 10545ms
+20 silly pacote tag manifest for @types/balanced-match@ts3.6 fetched in 10545ms
+21 silly pacote tag manifest for @types/are-we-there-yet@ts3.6 fetched in 10559ms
+22 silly pacote tag manifest for @types/detect-libc@ts3.6 fetched in 10473ms
+23 silly pacote tag manifest for @types/concat-map@ts3.6 fetched in 10551ms
+24 http fetch GET 304 https://registry.npmjs.org/@types%2fcacache 10558ms (from cache)
+25 silly pacote tag manifest for @types/abbrev@ts3.6 fetched in 10609ms
+26 silly pacote tag manifest for @types/cacache@ts3.6 fetched in 10632ms
+27 http fetch GET 200 https://registry.npmjs.org/@types%2ffs-minipass 230ms
+28 silly fetchPackageMetaData error for @types/fs-minipass@ts3.6 No matching version found for @types/fs-minipass@ts3.6.
+29 http fetch GET 304 https://registry.npmjs.org/@types%2fgraceful-fs 488ms (from cache)
+30 silly pacote tag manifest for @types/graceful-fs@ts3.6 fetched in 565ms
+31 http fetch GET 200 https://registry.npmjs.org/@types%2fmake-fetch-happen 540ms
+32 http fetch GET 304 https://registry.npmjs.org/@types%2fhttp-cache-semantics 648ms (from cache)
+33 http fetch GET 304 https://registry.npmjs.org/@types%2fhumanize-ms 638ms (from cache)
+34 http fetch GET 304 https://registry.npmjs.org/@types%2fglob 672ms (from cache)
+35 http fetch GET 304 https://registry.npmjs.org/@types%2fip 661ms (from cache)
+36 silly pacote tag manifest for @types/make-fetch-happen@ts3.6 fetched in 586ms
+37 silly pacote tag manifest for @types/http-cache-semantics@ts3.6 fetched in 725ms
+38 silly pacote tag manifest for @types/humanize-ms@ts3.6 fetched in 824ms
+39 silly pacote tag manifest for @types/glob@ts3.6 fetched in 839ms
+40 silly pacote tag manifest for @types/ip@ts3.6 fetched in 844ms
+41 http fetch GET 304 https://registry.npmjs.org/@types%2fminimatch 1435ms (from cache)
+42 silly pacote tag manifest for @types/minimatch@ts3.6 fetched in 1601ms
+43 http fetch GET 304 https://registry.npmjs.org/@types%2fisexe 1757ms (from cache)
+44 http fetch GET 304 https://registry.npmjs.org/@types%2fmkdirp 1131ms (from cache)
+45 http fetch GET 304 https://registry.npmjs.org/@types%2fminizlib 1234ms (from cache)
+46 silly pacote tag manifest for @types/isexe@ts3.6 fetched in 1797ms
+47 silly pacote tag manifest for @types/mkdirp@ts3.6 fetched in 1194ms
+48 silly pacote tag manifest for @types/minizlib@ts3.6 fetched in 1294ms
+49 http fetch GET 304 https://registry.npmjs.org/@types%2fobject-assign 763ms (from cache)
+50 http fetch GET 304 https://registry.npmjs.org/@types%2fnode-fetch 1229ms (from cache)
+51 silly pacote tag manifest for @types/node-fetch@ts3.6 fetched in 1333ms
+52 silly pacote tag manifest for @types/object-assign@ts3.6 fetched in 919ms
+53 http fetch GET 304 https://registry.npmjs.org/@types%2fnopt 1004ms (from cache)
+54 silly pacote tag manifest for @types/nopt@ts3.6 fetched in 1067ms
+55 http fetch GET 304 https://registry.npmjs.org/@types%2fonce 786ms (from cache)
+56 http fetch GET 304 https://registry.npmjs.org/@types%2fpromise-retry 721ms (from cache)
+57 http fetch GET 304 https://registry.npmjs.org/@types%2fpath-is-absolute 769ms (from cache)
+58 silly pacote tag manifest for @types/once@ts3.6 fetched in 834ms
+59 http fetch GET 304 https://registry.npmjs.org/@types%2fretry 540ms (from cache)
+60 silly pacote tag manifest for @types/path-is-absolute@ts3.6 fetched in 803ms
+61 silly pacote tag manifest for @types/promise-retry@ts3.6 fetched in 761ms
+62 http fetch GET 304 https://registry.npmjs.org/@types%2fnpmlog 1498ms (from cache)
+63 http fetch GET 304 https://registry.npmjs.org/@types%2fis-lambda 2655ms (from cache)
+64 silly registry:manifest no matching version for @types/is-lambda@ts3.6 in the cache. Forcing revalidation.
+65 silly pacote tag manifest for @types/retry@ts3.6 fetched in 667ms
+66 http fetch GET 304 https://registry.npmjs.org/@types%2fimurmurhash 2779ms (from cache)
+67 silly pacote tag manifest for @types/npmlog@ts3.6 fetched in 1681ms
+68 silly pacote tag manifest for @types/imurmurhash@ts3.6 fetched in 2899ms
+69 http fetch GET 304 https://registry.npmjs.org/@types%2freadable-stream 970ms (from cache)
+70 http fetch GET 304 https://registry.npmjs.org/@types%2fpromise-inflight 1178ms (from cache)
+71 http fetch GET 304 https://registry.npmjs.org/@types%2frimraf 922ms (from cache)
+72 silly pacote tag manifest for @types/readable-stream@ts3.6 fetched in 1003ms
+73 silly pacote tag manifest for @types/promise-inflight@ts3.6 fetched in 1260ms
+74 http fetch GET 304 https://registry.npmjs.org/@types%2fsemver 531ms (from cache)
+75 http fetch GET 200 https://registry.npmjs.org/@types%2fset-blocking 536ms
+76 silly fetchPackageMetaData error for @types/set-blocking@ts3.6 No matching version found for @types/set-blocking@ts3.6.
+77 silly pacote tag manifest for @types/rimraf@ts3.6 fetched in 1036ms
+78 http fetch GET 304 https://registry.npmjs.org/@types%2fsignal-exit 554ms (from cache)
+79 silly pacote tag manifest for @types/semver@ts3.6 fetched in 610ms
+80 silly pacote tag manifest for @types/signal-exit@ts3.6 fetched in 611ms
+81 http fetch GET 304 https://registry.npmjs.org/@types%2ftar 1130ms (from cache)
+82 silly pacote tag manifest for @types/tar@ts3.6 fetched in 1169ms
+83 http fetch GET 304 https://registry.npmjs.org/@types%2ftr46 1063ms (from cache)
+84 silly registry:manifest no matching version for @types/tr46@ts3.6 in the cache. Forcing revalidation.
+85 http fetch GET 304 https://registry.npmjs.org/@types%2futil-deprecate 916ms (from cache)
+86 http fetch GET 304 https://registry.npmjs.org/@types%2fwhich 817ms (from cache)
+87 http fetch GET 304 https://registry.npmjs.org/@types%2fwebidl-conversions 890ms (from cache)
+88 http fetch GET 304 https://registry.npmjs.org/@types%2fssri 1282ms (from cache)
+89 http fetch GET 304 https://registry.npmjs.org/@types%2fwhatwg-url 1606ms (from cache)
+90 silly pacote tag manifest for @types/util-deprecate@ts3.6 fetched in 1731ms
+91 silly pacote tag manifest for @types/which@ts3.6 fetched in 1643ms
+92 silly pacote tag manifest for @types/ssri@ts3.6 fetched in 2089ms
+93 silly pacote tag manifest for @types/webidl-conversions@ts3.6 fetched in 1701ms
+94 silly pacote tag manifest for @types/whatwg-url@ts3.6 fetched in 1678ms
+95 http fetch GET 304 https://registry.npmjs.org/@types%2fyallist 1695ms (from cache)
+96 silly pacote tag manifest for @types/yallist@ts3.6 fetched in 1724ms
+97 http fetch GET 200 https://registry.npmjs.org/@types%2ftr46 1146ms
+98 silly fetchPackageMetaData error for @types/tr46@ts3.6 No matching version found for @types/tr46@ts3.6.
+99 http fetch GET 200 https://registry.npmjs.org/@types%2fis-lambda 2534ms
+100 silly fetchPackageMetaData error for @types/is-lambda@ts3.6 No matching version found for @types/is-lambda@ts3.6.
+101 timing stage:rollbackFailedOptional Completed in 3ms
+102 timing stage:runTopLevelLifecycles Completed in 16120ms
+103 verbose type tag
+104 verbose stack @types/delegates: No matching version found for @types/delegates@ts3.6.
+104 verbose stack     at pickManifest (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/index.js:122:13)
+104 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/pacote/lib/fetchers/registry/manifest.js:24:14
+104 verbose stack     at tryCatcher (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+104 verbose stack     at Promise._settlePromiseFromHandler (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:517:31)
+104 verbose stack     at Promise._settlePromise (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:574:18)
+104 verbose stack     at Promise._settlePromise0 (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:619:10)
+104 verbose stack     at Promise._settlePromises (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:699:18)
+104 verbose stack     at _drainQueueStep (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+104 verbose stack     at _drainQueue (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:131:9)
+104 verbose stack     at Async._drainQueues (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:147:5)
+104 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/usr/local/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+104 verbose stack     at processImmediate (internal/timers.js:456:21)
+105 verbose cwd /home/theia/.cache/typescript/3.6
+106 verbose Linux 5.10.102.1-microsoft-standard-WSL2
+107 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--ignore-scripts" "@types/abbrev@ts3.6" "@types/are-we-there-yet@ts3.6" "@types/balanced-match@ts3.6" "@types/brace-expansion@ts3.6" "@types/cacache@ts3.6" "@types/chownr@ts3.6" "@types/color-support@ts3.6" "@types/concat-map@ts3.6" "@types/delegates@ts3.6" "@types/detect-libc@ts3.6" "@types/fs-minipass@ts3.6" "@types/glob@ts3.6" "@types/graceful-fs@ts3.6" "@types/http-cache-semantics@ts3.6" "@types/humanize-ms@ts3.6" "@types/imurmurhash@ts3.6" "@types/ip@ts3.6" "@types/is-lambda@ts3.6" "@types/isexe@ts3.6" "@types/make-fetch-happen@ts3.6" "@types/minimatch@ts3.6" "@types/minizlib@ts3.6" "@types/mkdirp@ts3.6" "@types/node-fetch@ts3.6" "@types/nopt@ts3.6" "@types/npmlog@ts3.6" "@types/object-assign@ts3.6" "@types/once@ts3.6" "@types/path-is-absolute@ts3.6" "@types/promise-inflight@ts3.6" "@types/promise-retry@ts3.6" "@types/readable-stream@ts3.6" "@types/retry@ts3.6" "@types/rimraf@ts3.6" "@types/semver@ts3.6" "@types/set-blocking@ts3.6" "@types/signal-exit@ts3.6" "@types/ssri@ts3.6" "@types/tar@ts3.6" "@types/tr46@ts3.6" "@types/util-deprecate@ts3.6" "@types/webidl-conversions@ts3.6" "@types/whatwg-url@ts3.6" "@types/which@ts3.6" "@types/yallist@ts3.6" "--save-dev" "--user-agent=typesInstaller/3.6.3"
+108 verbose node v12.18.3
+109 verbose npm  v6.14.6
+110 error code ETARGET
+111 error notarget No matching version found for @types/delegates@ts3.6.
+112 error notarget In most cases you or one of your dependencies are requesting
+112 error notarget a package version that doesn't exist.
+113 verbose exit [ 1, true ]
